@@ -1,0 +1,143 @@
+/* #dh:hover
+{
+    transform: translate(14em, 0);
+} */
+@keyframes applemovement {
+    from {
+        top: 0vh;
+    }
+
+    to {
+        top: 100vh;
+    }
+}
+
+#hola {
+    position: absolute;
+    top: -5px;
+
+}
+
+#hola1 {
+    position: absolute;
+    top: -5px;
+}
+.cover
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 60vh;
+    width: 40vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#jjt {
+    color: white;
+    padding: 20px;
+    font-size: 40px;
+    transition: opacity 1000ms ease-in-out;
+    margin: auto;
+}
+
+#root {
+    min-height: 100vh;
+}
+
+#bomb {
+    position: absolute;
+    top: -5;
+}
+
+#bomb1 {
+    position: absolute;
+    top: -5;
+}
+
+#dh {
+    position: relative;
+    pointer-events: none;
+    width: 80px;
+}
+
+.active {
+    cursor: move;
+    user-select: none;
+}
+
+.imgmove {
+    position: absolute;
+    transition: opacity 1000ms ease-in-out;
+}
+
+.bg {
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
+.score
+{
+    color: white;
+    font-size: 40px;
+    position: absolute;
+    transition: opacity 1000ms ease-in-out;
+}
+.amigo
+{
+    min-height: 100vh;
+    transition: background 1000ms ease-in-out;
+}
+/* .bgb
+{
+    background: #252b48cc;
+} */
+.opc
+{
+    opacity: 0;
+}
+
+/* .bgv
+{
+    background: #252B48;
+} */
+.End
+{
+    position: absolute;
+    height: 70vh;
+    width: 30vw;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid white;
+    border-radius: 10% 10% 10% 10%;
+    flex-direction: column;
+    color: black;
+    background-color: white;
+}
+.endbtn
+{
+    transform: scale(2);
+}
+.sc
+{
+    display: inline;
+}
+.playername
+{
+    font-size: 30px;
+    font-weight: bolder;
+    margin: 30px 0px;
+}
+.gameover
+{
+    margin: 20px 0px;
+}
+.getbetter
+{
+    margin: 0px 0px 20px 0px;
+}
